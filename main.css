@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Core";
+    src: url('Sofia.woff2') format('woff2'),
+        url('Sofia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.LH0 { line-height: 0 !important; }
+
+.T2, .T3, .T4, .VB { display: none; }
+
+.row { display: flex !important; }
+
+.S2B3, #CONS { display: none; }
+
+button { font-weight: bold !important; font-size: 1.4rem !important; }
+
+#BTNYES {
+  background-color: #24d5e9 !important;
+}
+
+
+#BTNYES, #BTNNO, #BTNADD, .VB { /*font-size: 1.1rem !important;*/ font-weight: normal !important; }
+
+.SCARED { border: 1px solid rgba(255,255,255,0.5); border-radius: 0.5rem; padding: 0.5rem; }
+
+input, button, select {
+  text-align: center !important;
+  text-align-last: center !important;
+  background-color: #181822 !important;
+  color: #fff !important;
+  border: 1px solid rgba(255,255,255,0.25) !important;
+  border-radius: 1rem !important;
+}
+
+button { background-color: #f82d6d !important; color: white !important; }
+
+red { color: #f44336 !important; font-weight: bold !important; }
+
+.P2, .P3, .VB, .BACKUP { display: none; }
+
+.tik-cyan { color: #24d5e9 !important; border-color: #24d5e9 !important; }
+
+.tik-pink { color: #f82d6d !important; border-color: #f82d6d !important; }
+
+.w-90 { width: 90% !important; }
+
+.w-65 { width: 65% !important; }
+
+hr { border-color: #fff !important; }
+
+.tikdescription { color: #dedede !important; font-style: italic; }
+
+input::placeholder { color: rgba(255,255,255,0.75) !important; }
+
+.device-content {
+  background: linear-gradient(180deg,#fff,#f6fafd);
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+
+body {
+  background: #8e9eab;
+  background: -webkit-linear-gradient(to top, #000, #434343);
+  background: linear-gradient(to top, #000, #434343);
+  font-family: "Core" !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #eee;
+}
+
+.tik-bot { bottom: 0; border-radius: 0 0 40px 40px; width: 100% }
+
+.tik-bot {
+    z-index: 0;
+    position: absolute;
+}
+
+.FLICK {
+  border-radius: 40px;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  transition-duration: 1.5s;
+ }
+
+.FLICK2 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.tikavatar { border-radius: 100%; }
+
+small { font-size: 75% !important; }
+
+span, strong, small { display: contents !important; }
+
+ @media (max-width: 575.98px) {
+
+   .welcome {
+     display: none;
+   }
+
+
+   .tik-bot { border-radius: 0; }
+
+   .FLICK {
+     border-radius: 0;
+     width: 100%;
+     height: 100%;
+    }
+
+    .device-iphone-x .device-content {
+      border-radius: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+   .device-iphone-x { width: 100% !important; height: 100vh !important; }
+
+   .device-iphone-x .device-header, .device-iphone-x .device-btns, .device-iphone-x .device-power, .device-sensors, .device-stripe { display: none; }
+
+   .device-iphone-x .device-frame {
+     background: none !important;
+     border-radius: 0;
+     box-shadow: none;
+     height: 100% !important;
+     padding: 0;
+     width: 100% !important;
+   }
+
+ }
